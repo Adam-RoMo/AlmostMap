@@ -3,5 +3,16 @@
 version = 4
 
 [[package]]
-name = "AlmostMap"
+name = "api"
+version = "0.1.0"
+dependencies = [
+ "database",
+]
+
+[[package]]
+name = "database"
+version = "0.1.0"
+
+[[package]]
+name = "processor"
 version = "0.1.0"
